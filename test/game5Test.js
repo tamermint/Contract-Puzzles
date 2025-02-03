@@ -26,7 +26,6 @@ describe("Game5", function () {
       to: address,
       value: ethers.utils.parseEther("0.1"),
     });
-    console.log(address);
 
     return { game, wallet };
   }
